@@ -13,7 +13,7 @@ wait(10)
 end) 
 
 Section:CreateButton("2", function() 
-wait(20) 
+wait(25) 
     local tweenInfo = TweenInfo.new(2)
     local goal = {CFrame = CFrame.new(246, 2, -143)}
     local tween = game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, tweenInfo, goal)
